@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="839b4d64-35ff-4231-b095-1f5177ad4fa0" name="Default" comment="" />
+    <list default="true" id="839b4d64-35ff-4231-b095-1f5177ad4fa0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoListTracker.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/carolynn/todolisttracker/ToDoList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/carolynn/todolisttracker/TestToDoList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/carolynn/todolisttracker/ToDoList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/todo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/todo.txt" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,18 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ToDoList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/carolynn/todolisttracker/ToDoList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="56" column="15" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="todo.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/todo.txt">
           <provider selected="true" editor-type-id="text-editor">
@@ -37,13 +32,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestToDoList.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/io/carolynn/todolisttracker/TestToDoList.java">
+      <file leaf-file-name="ListTracker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/carolynn/todolisttracker/ListTracker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+            <state relative-caret-position="316">
+              <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestListTracker.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/io/carolynn/todolisttracker/TestListTracker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/test.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -55,6 +70,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -63,6 +81,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/todo.txt" />
         <option value="$PROJECT_DIR$/src/test/java/io/carolynn/todolisttracker/TestToDoList.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/carolynn/todolisttracker/ToDoList.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/test.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/io/carolynn/todolisttracker/FileTracker.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/carolynn/todolisttracker/TestFileTracker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/carolynn/todolisttracker/ListTracker.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/carolynn/todolisttracker/TestListTracker.java" />
       </list>
     </option>
   </component>
@@ -99,9 +122,13 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="31" />
+    <option name="x" value="22" />
+    <option name="y" value="34" />
     <option name="width" value="1300" />
     <option name="height" value="777" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -109,63 +136,63 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ToDoListTracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ToDoListTracker" type="462c0819:PsiDirectoryNode" />
+              <item name="Java_ToDoList_Tracker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_ToDoList_Tracker" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ToDoListTracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ToDoListTracker" type="462c0819:PsiDirectoryNode" />
+              <item name="Java_ToDoList_Tracker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_ToDoList_Tracker" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ToDoListTracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ToDoListTracker" type="462c0819:PsiDirectoryNode" />
+              <item name="Java_ToDoList_Tracker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_ToDoList_Tracker" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ToDoListTracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ToDoListTracker" type="462c0819:PsiDirectoryNode" />
+              <item name="Java_ToDoList_Tracker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_ToDoList_Tracker" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ToDoListTracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ToDoListTracker" type="462c0819:PsiDirectoryNode" />
+              <item name="Java_ToDoList_Tracker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_ToDoList_Tracker" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="todolisttracker" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ToDoListTracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ToDoListTracker" type="462c0819:PsiDirectoryNode" />
+              <item name="Java_ToDoList_Tracker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_ToDoList_Tracker" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ToDoListTracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ToDoListTracker" type="462c0819:PsiDirectoryNode" />
+              <item name="Java_ToDoList_Tracker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_ToDoList_Tracker" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ToDoListTracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ToDoListTracker" type="462c0819:PsiDirectoryNode" />
+              <item name="Java_ToDoList_Tracker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_ToDoList_Tracker" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ToDoListTracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ToDoListTracker" type="462c0819:PsiDirectoryNode" />
+              <item name="Java_ToDoList_Tracker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_ToDoList_Tracker" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -175,12 +202,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -200,30 +228,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android JUnit.TestToDoList.testPrintList">
-    <configuration name="TestToDoList.testPrintList" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ToDoListTracker" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.carolynn.todolisttracker.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="io.carolynn.todolisttracker.TestToDoList" />
-      <option name="METHOD_NAME" value="testPrintList" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestListTracker.testClearList">
     <configuration name="TestToDoList.testPrintList" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="ToDoListTracker" />
       <extension name="coverage">
@@ -250,7 +255,7 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="TestToDoList.testPrintList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestListTracker.testAddData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ToDoListTracker" />
       <extension name="coverage">
         <pattern>
@@ -261,8 +266,100 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="io.carolynn.todolisttracker" />
-      <option name="MAIN_CLASS_NAME" value="io.carolynn.todolisttracker.TestToDoList" />
-      <option name="METHOD_NAME" value="testPrintList" />
+      <option name="MAIN_CLASS_NAME" value="io.carolynn.todolisttracker.TestListTracker" />
+      <option name="METHOD_NAME" value="testAddData" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestListTracker.testClearList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ToDoListTracker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.carolynn.todolisttracker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="io.carolynn.todolisttracker" />
+      <option name="MAIN_CLASS_NAME" value="io.carolynn.todolisttracker.TestListTracker" />
+      <option name="METHOD_NAME" value="testClearList" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestListTracker.testDeleteFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ToDoListTracker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.carolynn.todolisttracker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="io.carolynn.todolisttracker" />
+      <option name="MAIN_CLASS_NAME" value="io.carolynn.todolisttracker.TestListTracker" />
+      <option name="METHOD_NAME" value="testDeleteFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestListTracker.testDeleteListItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ToDoListTracker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.carolynn.todolisttracker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="io.carolynn.todolisttracker" />
+      <option name="MAIN_CLASS_NAME" value="io.carolynn.todolisttracker.TestListTracker" />
+      <option name="METHOD_NAME" value="testDeleteListItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestListTracker.testStartList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ToDoListTracker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.carolynn.todolisttracker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="io.carolynn.todolisttracker" />
+      <option name="MAIN_CLASS_NAME" value="io.carolynn.todolisttracker.TestListTracker" />
+      <option name="METHOD_NAME" value="testStartList" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -312,14 +409,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestToDoList.testPrintList" />
-      <item itemvalue="Android JUnit.TestToDoList.testPrintList" />
+      <item itemvalue="JUnit.TestListTracker.testStartList" />
+      <item itemvalue="JUnit.TestListTracker.testDeleteFile" />
+      <item itemvalue="JUnit.TestListTracker.testDeleteListItem" />
+      <item itemvalue="JUnit.TestListTracker.testAddData" />
+      <item itemvalue="JUnit.TestListTracker.testClearList" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Android JUnit.TestToDoList.testPrintList" />
-        <item itemvalue="Android JUnit.TestToDoList.testPrintList" />
-        <item itemvalue="JUnit.TestToDoList.testPrintList" />
+        <item itemvalue="JUnit.TestListTracker.testClearList" />
+        <item itemvalue="JUnit.TestListTracker.testAddData" />
+        <item itemvalue="JUnit.TestListTracker.testStartList" />
+        <item itemvalue="JUnit.TestListTracker.testDeleteListItem" />
+        <item itemvalue="JUnit.TestListTracker.testDeleteFile" />
       </list>
     </recent_temporary>
   </component>
@@ -335,46 +437,47 @@
       <updated>1533329565850</updated>
       <workItem from="1533329567251" duration="3556000" />
       <workItem from="1533333162639" duration="5728000" />
+      <workItem from="1533668077982" duration="7706000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestToDoList_testPrintList - 2018.08.03 at 19h 17m 43s.xml">
-      <configuration name="TestToDoList.testPrintList" configurationId="AndroidJUnit" />
+    <history-entry file="TestFileTracker_testWriteData - 2018.08.07 at 17h 20m 34s.xml">
+      <configuration name="TestFileTracker.testWriteData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestToDoList_testPrintList - 2018.08.03 at 19h 17m 49s.xml">
-      <configuration name="TestToDoList.testPrintList" configurationId="AndroidJUnit" />
+    <history-entry file="TestFileTracker_testStartList - 2018.08.07 at 17h 22m 18s.xml">
+      <configuration name="TestFileTracker.testStartList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestToDoList_testPrintList - 2018.08.03 at 19h 17m 54s.xml">
-      <configuration name="TestToDoList.testPrintList" configurationId="AndroidJUnit" />
+    <history-entry file="TestFileTracker_testConstructor1 - 2018.08.07 at 17h 26m 08s.xml">
+      <configuration name="TestFileTracker.testConstructor1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestToDoList_testPrintList - 2018.08.03 at 19h 18m 01s.xml">
-      <configuration name="TestToDoList.testPrintList" configurationId="AndroidJUnit" />
+    <history-entry file="TestFileTracker_testDeleteFile - 2018.08.07 at 17h 29m 53s.xml">
+      <configuration name="TestFileTracker.testDeleteFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestToDoList_testPrintList - 2018.08.03 at 19h 18m 13s.xml">
-      <configuration name="TestToDoList.testPrintList" configurationId="AndroidJUnit" />
+    <history-entry file="TestFileTracker_testDeleteFile - 2018.08.07 at 17h 30m 11s.xml">
+      <configuration name="TestFileTracker.testDeleteFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestToDoList_testPrintList - 2018.08.03 at 19h 18m 23s.xml">
-      <configuration name="TestToDoList.testPrintList" configurationId="AndroidJUnit" />
+    <history-entry file="TestListTracker_testDeleteListItem - 2018.08.07 at 17h 45m 23s.xml">
+      <configuration name="TestListTracker.testDeleteListItem" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestToDoList_testPrintList - 2018.08.03 at 19h 25m 19s.xml">
-      <configuration name="TestToDoList.testPrintList" configurationId="AndroidJUnit" />
+    <history-entry file="TestListTracker_testDeleteListItem - 2018.08.07 at 17h 47m 08s.xml">
+      <configuration name="TestListTracker.testDeleteListItem" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestToDoList_testPrintList - 2018.08.03 at 19h 25m 31s.xml">
-      <configuration name="TestToDoList.testPrintList" configurationId="AndroidJUnit" />
+    <history-entry file="TestListTracker_testDeleteListItem - 2018.08.07 at 17h 47m 15s.xml">
+      <configuration name="TestListTracker.testDeleteListItem" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestToDoList_testPrintList - 2018.08.03 at 19h 25m 41s.xml">
-      <configuration name="TestToDoList.testPrintList" configurationId="AndroidJUnit" />
+    <history-entry file="TestListTracker_testStartList - 2018.08.07 at 17h 47m 38s.xml">
+      <configuration name="TestListTracker.testStartList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestToDoList_testPrintList - 2018.08.03 at 19h 25m 58s.xml">
-      <configuration name="TestToDoList.testPrintList" configurationId="AndroidJUnit" />
+    <history-entry file="TestListTracker_testStartList - 2018.08.07 at 17h 48m 00s.xml">
+      <configuration name="TestListTracker.testStartList" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9284000" />
+    <option name="totallyTimeSpent" value="16990000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="31" width="1300" height="777" extended-state="0" />
+    <frame x="22" y="34" width="1300" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -386,19 +489,19 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007949" side_tool="true" weight="0.32941177" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3298887" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49920508" visible="true" weight="0.32941177" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49780703" visible="true" weight="0.2535771" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49780703" visible="true" weight="0.25755167" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" sideWeight="0.502193" side_tool="true" weight="0.24960254" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -414,6 +517,30 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/carolynn/todolisttracker/ToDoList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/todo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/carolynn/todolisttracker/TestToDoList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/carolynn/todolisttracker/ToDoList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -468,6 +595,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/io/DataInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="568" selection-start-line="568" selection-end-line="568" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/carolynn/todolisttracker/TestToDoList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/carolynn/todolisttracker/ToDoList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/todo.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -475,20 +626,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/carolynn/todolisttracker/ToDoList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/carolynn/todolisttracker/ListTracker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="56" column="15" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="15" />
+        <state relative-caret-position="316">
+          <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/io/carolynn/todolisttracker/TestToDoList.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/carolynn/todolisttracker/TestListTracker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+        <state relative-caret-position="165">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
