@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="839b4d64-35ff-4231-b095-1f5177ad4fa0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoListTracker.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/carolynn/todolisttracker/ToDoList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/carolynn/todolisttracker/TestToDoList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/carolynn/todolisttracker/ToDoList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/todo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/todo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/carolynn/todolisttracker/ListTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/carolynn/todolisttracker/ListTracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/carolynn/todolisttracker/TestListTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/carolynn/todolisttracker/TestListTracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/carolynn/todolisttracker/TestListTracker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/carolynn/todolisttracker/TestListTracker.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,20 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="todo.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/todo.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListTracker.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ListTracker.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/carolynn/todolisttracker/ListTracker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
+            <state relative-caret-position="495">
+              <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,21 +34,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestListTracker.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestListTracker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/io/carolynn/todolisttracker/TestListTracker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            <state relative-caret-position="825">
+              <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/test.txt">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -84,8 +69,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/test.txt" />
         <option value="$PROJECT_DIR$/src/main/java/io/carolynn/todolisttracker/FileTracker.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/carolynn/todolisttracker/TestFileTracker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/carolynn/todolisttracker/ListTracker.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/carolynn/todolisttracker/TestListTracker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/carolynn/todolisttracker/ListTracker.java" />
       </list>
     </option>
   </component>
@@ -122,9 +107,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="22" />
-    <option name="y" value="34" />
-    <option name="width" value="1300" />
+    <option name="x" value="13" />
+    <option name="y" value="66" />
+    <option name="width" value="1393" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -135,8 +120,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,6 +185,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -301,7 +286,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestListTracker.testDeleteFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestListTracker.testConstructor1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ToDoListTracker" />
       <extension name="coverage">
         <pattern>
@@ -313,7 +298,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="io.carolynn.todolisttracker" />
       <option name="MAIN_CLASS_NAME" value="io.carolynn.todolisttracker.TestListTracker" />
-      <option name="METHOD_NAME" value="testDeleteFile" />
+      <option name="METHOD_NAME" value="testConstructor1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -409,19 +394,18 @@
       <listeners />
     </configuration>
     <list>
+      <item itemvalue="Android JUnit.TestToDoList.testPrintList" />
       <item itemvalue="JUnit.TestListTracker.testStartList" />
-      <item itemvalue="JUnit.TestListTracker.testDeleteFile" />
-      <item itemvalue="JUnit.TestListTracker.testDeleteListItem" />
       <item itemvalue="JUnit.TestListTracker.testAddData" />
       <item itemvalue="JUnit.TestListTracker.testClearList" />
+      <item itemvalue="JUnit.TestListTracker.testConstructor1" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestListTracker.testClearList" />
+        <item itemvalue="JUnit.TestListTracker.testConstructor1" />
         <item itemvalue="JUnit.TestListTracker.testAddData" />
         <item itemvalue="JUnit.TestListTracker.testStartList" />
-        <item itemvalue="JUnit.TestListTracker.testDeleteListItem" />
-        <item itemvalue="JUnit.TestListTracker.testDeleteFile" />
       </list>
     </recent_temporary>
   </component>
@@ -437,26 +421,14 @@
       <updated>1533329565850</updated>
       <workItem from="1533329567251" duration="3556000" />
       <workItem from="1533333162639" duration="5728000" />
-      <workItem from="1533668077982" duration="7706000" />
+      <workItem from="1533668077982" duration="8698000" />
+      <workItem from="1534015048440" duration="1284000" />
+      <workItem from="1534196558870" duration="8000" />
+      <workItem from="1534197351558" duration="1249000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestFileTracker_testWriteData - 2018.08.07 at 17h 20m 34s.xml">
-      <configuration name="TestFileTracker.testWriteData" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestFileTracker_testStartList - 2018.08.07 at 17h 22m 18s.xml">
-      <configuration name="TestFileTracker.testStartList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestFileTracker_testConstructor1 - 2018.08.07 at 17h 26m 08s.xml">
-      <configuration name="TestFileTracker.testConstructor1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestFileTracker_testDeleteFile - 2018.08.07 at 17h 29m 53s.xml">
-      <configuration name="TestFileTracker.testDeleteFile" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestFileTracker_testDeleteFile - 2018.08.07 at 17h 30m 11s.xml">
-      <configuration name="TestFileTracker.testDeleteFile" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestListTracker_testDeleteListItem - 2018.08.07 at 17h 45m 23s.xml">
       <configuration name="TestListTracker.testDeleteListItem" configurationId="JUnit" />
     </history-entry>
@@ -472,38 +444,53 @@
     <history-entry file="TestListTracker_testStartList - 2018.08.07 at 17h 48m 00s.xml">
       <configuration name="TestListTracker.testStartList" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestListTracker_testAddData - 2018.08.07 at 17h 50m 07s.xml">
+      <configuration name="TestListTracker.testAddData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestListTracker_testClearList - 2018.08.07 at 17h 51m 24s.xml">
+      <configuration name="TestListTracker.testClearList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestListTracker_testConstructor1 - 2018.08.07 at 18h 09m 37s.xml">
+      <configuration name="TestListTracker.testConstructor1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestListTracker_testConstructor1 - 2018.08.07 at 18h 10m 17s.xml">
+      <configuration name="TestListTracker.testConstructor1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestListTracker_testClearList - 2018.08.07 at 18h 11m 30s.xml">
+      <configuration name="TestListTracker.testClearList" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16990000" />
+    <option name="totallyTimeSpent" value="20523000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="22" y="34" width="1300" height="777" extended-state="0" />
+    <frame x="13" y="66" width="1393" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32941177" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007949" side_tool="true" weight="0.32941177" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3298887" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49920508" weight="0.32941177" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49920508" visible="true" weight="0.32941177" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32941177" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49780703" visible="true" weight="0.25755167" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49780703" visible="true" weight="0.25092524" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" sideWeight="0.502193" side_tool="true" weight="0.24960254" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" sideWeight="0.502193" side_tool="true" weight="0.24960254" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32941177" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -517,16 +504,67 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/carolynn/todolisttracker/ToDoList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/carolynn/todolisttracker/ListTracker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="525">
+          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/carolynn/todolisttracker/TestListTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/carolynn/todolisttracker/ListTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/carolynn/todolisttracker/TestListTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/carolynn/todolisttracker/ListTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="69" column="20" lean-forward="true" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/carolynn/todolisttracker/TestListTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/carolynn/todolisttracker/ToDoList.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/todo.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -534,23 +572,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/io/carolynn/todolisttracker/TestToDoList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/carolynn/todolisttracker/ToDoList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/carolynn/todolisttracker/TestToDoList.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/carolynn/todolisttracker/ToDoList.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/todo.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -558,13 +581,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/io/carolynn/todolisttracker/TestToDoList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/carolynn/todolisttracker/TestToDoList.java" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1150">
@@ -581,13 +598,7 @@
     <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ToDoListTracker.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ToDoListTracker.iml" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -602,22 +613,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/io/carolynn/todolisttracker/TestToDoList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/carolynn/todolisttracker/ToDoList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/carolynn/todolisttracker/TestToDoList.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/carolynn/todolisttracker/ToDoList.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/todo.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -626,23 +625,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/carolynn/todolisttracker/ListTracker.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/carolynn/todolisttracker/TestListTracker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
+        <state relative-caret-position="825">
+          <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/io/carolynn/todolisttracker/TestListTracker.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/carolynn/todolisttracker/ListTracker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        <state relative-caret-position="495">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

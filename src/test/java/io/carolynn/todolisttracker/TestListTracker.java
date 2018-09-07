@@ -1,5 +1,6 @@
 package io.carolynn.todolisttracker;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.nio.file.Path;
@@ -11,8 +12,8 @@ public class TestListTracker {
     public void testConstructor1(){
         ListTracker tracker = new ListTracker(Paths.get("/Users/carolynn/dev/testSaveOnDesktop.txt"));
         tracker.startList("new");
-        tracker.addData("id");
-        System.out.println(tracker.printData());
+        String expected = "new\n";
+        Assert.assertEquals(expected, tracker.printData());
     }
 
     @Test
@@ -55,7 +56,8 @@ public class TestListTracker {
         ListTracker tracker = new ListTracker(Paths.get("/Users/carolynn/dev/Work-in-process-Projects/Java_ToDoList_Tracker" +
                 "/src/main/resources/test.txt"));
         tracker.clearList();
-        System.out.println(tracker.printData());
+        String expected = "";
+        Assert.assertEquals(expected, tracker.printData());
     }
 
 }

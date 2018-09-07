@@ -4,8 +4,8 @@ import java.io.*;
 import java.nio.charset.Charset;
 import java.nio.file.FileAlreadyExistsException;
 import java.nio.file.Files;
-import java.nio.file.OpenOption;
 import java.nio.file.Path;
+import java.util.Arrays;
 
 import static java.nio.file.StandardOpenOption.APPEND;
 
@@ -36,6 +36,8 @@ public class ListTracker {
             e.printStackTrace();
         }
     }
+
+
 
     public void addData(String data){
         try (BufferedWriter writer = Files.newBufferedWriter(file, charset, APPEND)) {
@@ -70,11 +72,7 @@ public class ListTracker {
     public void deleteListItem(String data){
         String [] array = printData().split("\n");
         StringBuilder builder = new StringBuilder();
-        for(String item: array){
-            if(!item.equals(data)){
-                builder.append(item);
-            }
-        }
+        Arrays.stream(array).filter(e->!e.equals(data)).forEach(e->builder.append(e));
         startList(builder.toString());
     }
 
