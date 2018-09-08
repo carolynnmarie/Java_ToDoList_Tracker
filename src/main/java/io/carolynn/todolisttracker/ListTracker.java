@@ -22,14 +22,13 @@ public class ListTracker {
                 Files.createFile(file);
             }
         } catch (IOException e){
-            System.out.println("other error in file creation");
+            System.out.println("file creation error");
         }
     }
 
     public void startList(String data){
         try (BufferedWriter writer = Files.newBufferedWriter(file, charset)) {
             writer.append(data);
-            writer.newLine();
         } catch (IOException e) {
             System.out.println("start list method error");
         }
@@ -38,8 +37,8 @@ public class ListTracker {
 
     public void addData(String data){
         try (BufferedWriter writer = Files.newBufferedWriter(file, charset, APPEND)) {
-            writer.append(data);
             writer.newLine();
+            writer.append(data);
         } catch (IOException e) {
             e.printStackTrace();
         }
