@@ -14,11 +14,12 @@ public class TestListTracker {
         tracker.startList("new");
         String expected = "new\n";
         Assert.assertEquals(expected, tracker.printData());
+        System.out.println(tracker.printData());
     }
 
     @Test
     public void testAddData(){
-        ListTracker tracker = new ListTracker(Paths.get("/Users/carolynn/dev/Work-in-process-Projects/Java_ToDoList_Tracker" +
+        ListTracker tracker = new ListTracker(Paths.get("/Users/carolynn/dev/Current_Projects/Java_ToDoList_Tracker" +
                 "/src/main/resources/test.txt"));
        tracker.addData("id");
        tracker.addData("and");
@@ -27,7 +28,7 @@ public class TestListTracker {
 
     @Test
     public void testStartList(){
-        ListTracker tracker = new ListTracker(Paths.get("/Users/carolynn/dev/Work-in-process-Projects/Java_ToDoList_Tracker" +
+        ListTracker tracker = new ListTracker(Paths.get("/Users/carolynn/dev/Current_Projects/Java_ToDoList_Tracker" +
                 "/src/main/resources/test.txt"));
         tracker.startList("new data");
         System.out.println(tracker.printData());
@@ -35,15 +36,15 @@ public class TestListTracker {
 
     @Test
     public void testDeleteFile(){
-        Path path = Paths.get("/Users/carolynn/dev/Work-in-process-Projects/Java_ToDoList_Tracker" +
-                "/src/main/resources/test");
+        Path path = Paths.get("/Users/carolynn/dev/Current_Projects/Java_ToDoList_Tracker" +
+                "/src/main/resources/test.txt");
         ListTracker tracker = new ListTracker(path);
         tracker.deleteFile(path);
     }
 
     @Test
     public void testDeleteListItem(){
-        ListTracker tracker = new ListTracker(Paths.get("/Users/carolynn/dev/Work-in-process-Projects/Java_ToDoList_Tracker" +
+        ListTracker tracker = new ListTracker(Paths.get("/Users/carolynn/dev/Current_Projects/Java_ToDoList_Tracker" +
                 "/src/main/resources/test.txt"));
         tracker.addData("and");
         System.out.println(tracker.printData());
@@ -52,8 +53,15 @@ public class TestListTracker {
     }
 
     @Test
+    public void testPrintNumberedList(){
+        ListTracker tracker = new ListTracker(Paths.get("/Users/carolynn/dev/Current_Projects/Java_ToDoList_Tracker" +
+                "/src/main/resources/test.txt"));
+        System.out.println(tracker.printNumberedList());
+    }
+
+    @Test
     public void testClearList(){
-        ListTracker tracker = new ListTracker(Paths.get("/Users/carolynn/dev/Work-in-process-Projects/Java_ToDoList_Tracker" +
+        ListTracker tracker = new ListTracker(Paths.get("/Users/carolynn/dev/Current_Projects/Java_ToDoList_Tracker" +
                 "/src/main/resources/test.txt"));
         tracker.clearList();
         String expected = "";

@@ -5,6 +5,7 @@ import java.nio.charset.Charset;
 import java.nio.file.FileAlreadyExistsException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.ArrayList;
 import java.util.Arrays;
 
 import static java.nio.file.StandardOpenOption.APPEND;
@@ -14,17 +15,14 @@ public class ListTracker {
     Charset charset = Charset.forName("US-ASCII");
     Path file;
 
-
     public ListTracker(Path file){
         this.file = file;
         try{
             if(Files.notExists(file)){
                 Files.createFile(file);
             }
-        } catch (FileAlreadyExistsException e){
-            e.printStackTrace();
         } catch (IOException e){
-            e.printStackTrace();
+            System.out.println("other error in file creation");
         }
     }
 
@@ -33,10 +31,9 @@ public class ListTracker {
             writer.append(data);
             writer.newLine();
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("start list method error");
         }
     }
-
 
 
     public void addData(String data){
@@ -46,6 +43,19 @@ public class ListTracker {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public ArrayList<String> retrieveData(){
+        ArrayList<String> dataList = new ArrayList<>();
+        try(BufferedReader reader = Files.newBufferedReader(file, charset)){
+            String line = "";
+            while((line = reader.readLine()) != null){
+                dataList.add(line);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return dataList;
     }
 
     public String printData(){
@@ -70,10 +80,23 @@ public class ListTracker {
     }
 
     public void deleteListItem(String data){
-        String [] array = printData().split("\n");
         StringBuilder builder = new StringBuilder();
-        Arrays.stream(array).filter(e->!e.equals(data)).forEach(e->builder.append(e));
+        retrieveData().stream()
+                .filter(e->!e.equals(data))
+                .forEach(e->builder.append(e).append("\n"));
         startList(builder.toString());
+    }
+
+    public String printNumberedList(){
+        StringBuilder builder = new StringBuilder("To Do List:\n");
+        ArrayList<String> numberedList = retrieveData();
+        for(int i = 0; i<numberedList.size();i++){
+            builder.append(i+1)
+                    .append(") ")
+                    .append(numberedList.get(i))
+                    .append("\n");
+        }
+        return builder.toString();
     }
 
     public void clearList(){
